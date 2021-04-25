@@ -1,0 +1,22 @@
+.relative{
+	position: relative;
+}
+.data_carousel{
+	position: absolute;
+	top:100px;
+	left: 30px;
+}
+.readmore{
+	max-width: 250px;
+	max-height: 50px !important;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+@media(max-width: 600px){
+	.data_carousel{
+	position: absolute;
+	top:60px;
+	left: 30px;
+}
+}
